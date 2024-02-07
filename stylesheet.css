@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns: minmax(300px,22%) 1fr;
-    grid-template-rows: 300px 1fr;
+    grid-template-rows: 220px 1fr;
     margin: 0;
     height: 100vh;
 }
@@ -127,6 +127,43 @@ body {
     background-color: rgb(210, 229, 229);
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+}
+
+#TopGrid {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-gap: 2%;
+}
+
+#SearchIcon {
+    grid-column: 1 / 2;
+}
+
+#SearchBar {
+    background-color: lightslategrey;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    grid-column: 2 / 3;
+}
+
+#BellIcon {
+    grid-column: 4 / 5;
+}
+
+#ProfilePic1 {
+    grid-column: 5 / 6;
+}
+
+#ProfileName {
+    grid-column: 6 / 7;
+}
+
+#BottomGrid {
+    grid-template-columns: 1fr 5fr 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .MainContent {

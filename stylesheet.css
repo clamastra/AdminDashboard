@@ -218,56 +218,56 @@ body {
 }
 
 #YourProjects {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 #Card1 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
 
 #Card2 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1 / 2;
+    grid-row: 3 / 6;
 }
 
 #Card3 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
 }
 
 #Card4 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
 
 #Card5 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 2 / 3;
+    grid-row: 3 / 6;
 }
 
 #Card6 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
 }
 
 #Announcements {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
 }
 
 #AnnouncementsCard {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
 }
 
 #Trending {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
 }
 
 #TrendingCard {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 3 / 4;
+    grid-row: 5 / 7;
 }

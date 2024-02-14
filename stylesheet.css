@@ -17,20 +17,23 @@ body {
 
 #Dashboard {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
-    padding-left: 20%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 .DashboardItem {
     color: white;
-    font-size: 26px;
+    font-size: 16px;
     align-self: center;
 }
 
 .DashboardIcon {
     justify-self: center;
     align-self: center;
+    filter: invert(100%) sepia(79%) saturate(877%) hue-rotate(177deg) brightness(100%) contrast(106%);
+    height: 20px;
 }
 
 #Icon1 {

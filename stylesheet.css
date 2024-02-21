@@ -31,7 +31,7 @@ body {
 
 .DashboardItem {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     align-self: center;
 }
 
@@ -264,14 +264,20 @@ body {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr .7fr;
-    grid-template-rows: 30px 3fr 1fr 1fr 1fr 3fr;
+    grid-template-rows: 30px 3fr 1.4fr .2fr 1.4fr 3fr;
     z-index: 2;
     grid-gap: 20px;
+    padding-bottom: 10px;
 }
 
 #YourProjects {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    margin-left: 10px;
+}
+#YourProjects,
+#Announcements,
+#Trending {
     margin-top: 24px;
     font-weight: 600;
     font-size: 16px;
@@ -361,6 +367,39 @@ body {
 #AnnouncementsCard {
     grid-column: 3 / 4;
     grid-row: 2 / 4;
+    display: grid;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#Announcement1Header {
+    margin-top: 10px;
+}
+
+#Announcement1Header,
+#Announcement2Header,
+#Announcement3Header {
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+#Announcement1Content,
+#Announcement2Content,
+#Announcement3Content {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+#Announcement1Content,
+#Announcement2Content {
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
 }
 
 #Trending {
@@ -371,4 +410,27 @@ body {
 #TrendingCard {
     grid-column: 3 / 4;
     grid-row: 5 / 7;
+    background: #ffffff;
+    border-radius: 10px;
+    display: grid;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    grid-template-columns: .3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#TrendingCard p{
+    align-self: center;
+}
+
+#ProfilePic3,
+#ProfilePic4,
+#ProfilePic5,
+#ProfilePic6 {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
 }
